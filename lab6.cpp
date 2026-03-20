@@ -69,7 +69,7 @@ void run_benchmark(int threads, int size, string type_name) {
     double efficiency = (blas_mean / my_mean) * 100.0;
 
     cout << fixed << setprecision(4);
-    cout << "Твой GEMM (среднее): " << my_mean << " сек" << endl;
+    cout << "Мой GEMM (среднее): " << my_mean << " сек" << endl;
     cout << "OpenBLAS (среднее):  " << blas_mean << " сек" << endl;
     cout << "Эффективность:       " << efficiency << "% от OpenBLAS" << endl << endl;
 }
