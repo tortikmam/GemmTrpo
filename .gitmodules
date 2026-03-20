@@ -1,0 +1,3 @@
+[submodule "OpenMathLib-OpenBLAS"]
+	path = OpenMathLib-OpenBLAS
+	url = https://github.com/OpenMathLib/OpenBLAS.git
