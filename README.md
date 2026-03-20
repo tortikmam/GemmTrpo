@@ -28,7 +28,7 @@ $$C = \alpha \cdot A \cdot B + \beta \cdot C$$
 ### 4.1. Инструкция по сборке и запуску
 Проект поддерживает автоматическую сборку. Для запуска на любой машине достаточно выполнить:
 ```bash
-git clone --recursive [https://github.com/tortikmam/GemmTrpo.git]
+git clone --recursive https://github.com/tortikmam/GemmTrpo.git
 cd GemmTrpo
 make run
 ```
