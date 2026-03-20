@@ -31,6 +31,7 @@ $$C = \alpha \cdot A \cdot B + \beta \cdot C$$
 git clone --recursive [https://github.com/tortikmam/GemmTrpo.git]
 cd GemmTrpo
 make run
+```
 
 ### 4.2. Реализация алгоритма
 Для выполнения задания была разработана шаблонная функция `my_gemm`, поддерживающая работу с типами `float` (одинарная точность) и `double` (двойная точность). 
